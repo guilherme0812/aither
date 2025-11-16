@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Aither — Plataforma de Créditos de Carbono focada em ODS 3 e 11
 
-## Getting Started
+Bem-vindo ao **Aither**, uma plataforma moderna e intuitiva para compra de créditos de carbono, com foco direto nos Objetivos de Desenvolvimento Sustentável **ODS 3 (Saúde e Bem-Estar)** e **ODS 11 (Cidades e Comunidades Sustentáveis)**.
 
-First, run the development server:
+Este projeto foi desenvolvido com **Next.js**, **TailwindCSS**, **shadcn/ui** e **React Icons**, seguindo um design profissional, moderno e totalmente responsivo.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TailwindCSS**
+- **shadcn/ui**
+- **React Icons**
+- **Framer Motion** (animações)
+
+---
+
+## 🎯 Funcionalidades Principais
+
+### Homepage completa contendo:
+
+- Hero banner de página inteira
+- Texto motivacional e institucional
+- Informações sobre impactos da poluição do ar na sociedade
+- Sessão com diversos cards de créditos de carbono disponíveis para compra
+- Cards com exibem:
+
+  - Nome do projeto
+  - ODS vinculada
+  - Preço do crédito
+  - Botão de compra funcional
+
+- Navbar profissional
+- Footer institucional
+- Design inspirado em marketplaces modernos
+
+---
+
+## 🏛️ Objetivo do Projeto
+
+O **Aither** tem como missão conectar pessoas e empresas a iniciativas que:
+
+- Reduzem diretamente a emissão de CO₂
+- Apoiam comunidades urbanas
+- Melhoram a qualidade do ar
+- Incentivam práticas sustentáveis alinhadas à ONU
+
+---
+
+## 📦 Instalação
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/seuusuario/carbon-air.git
+cd carbon-air
+```
+
+Instale as dependências:
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+Configure o shadcn/ui:
+
+```bash
+npx shadcn init
+```
+
+Instale os componentes necessários (exemplo):
+
+```bash
+npx shadcn add button card badge input navigation-menu
+```
+
+Inicie o servidor:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+project
+│── app
+│   ├── page.tsx        # Página Home
+│   ├── layout.tsx      # Layout base
+│
+│── components          # Componentes reutilizáveis
+│── lib                 # Utilitários
+│── public              # Imagens
+│── styles              # Estilos globais
+│
+└── README.md
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💳 Fluxo de Compra
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O fluxo de compra foi estruturado para permitir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Seleção de um projeto
+- Escolha da quantidade de créditos
+- Cálculo automático do valor
+- Checkout (pode integrar com Stripe / API real futuramente)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Melhorias Futuras
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Integração real com APIs de créditos de carbono
+- Dashboard para acompanhar créditos comprados
+- Sistema de login (NextAuth)
+- Página de detalhes de cada projeto
+- Integração com banco de dados via Prisma
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se livre para abrir PRs ou issues com sugestões de melhoria.
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob **MIT License**.
+
+---
+
+## 🌱 Sobre o Aither
+
+Criado para incentivar um futuro mais limpo, sustentável e saudável.
+
+> "Respirar ar puro é um direito, não um privilégio."
